@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksandrBrazhnyk/nodejs-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksandrBrazhnyk/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/AleksandrBrazhnyk/nodejs-hw#readme",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "common": "^0.2.5",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": []
+}
